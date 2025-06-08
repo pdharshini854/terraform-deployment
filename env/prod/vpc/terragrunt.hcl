@@ -3,7 +3,7 @@ terraform {
     }
 inputs = {
   vpc_name   = "prod-vpc"
-  cidr_block = "10.0.0.0/16"
+  cidr_block = "10.2.0.0/16"
   tags = {
     Environment = "prod"
     Owner       = "devops-team"
